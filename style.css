@@ -28,7 +28,7 @@ section {
     overflow: hidden;
 }
 
-.half-width h1 {
+h1 {
     font-size: 30px;
     font-weight: 500;
 }
@@ -47,7 +47,6 @@ section {
 .half-width img {
     width: 100%;
 }
-
 
 
 .biography {
@@ -78,11 +77,6 @@ section {
     gap: 5rem;
 }
 
-.latest-work h1 {
-    font-size: 30px;
-    font-weight: 500;
-}
-
 .latest-work .works {
     width: 80%;
     display: flex;
@@ -93,7 +87,7 @@ section {
 }
 
 .latest-work .works .work {
-    background-image: linear-gradient(225deg,rgb(246, 246, 246), rgb(228, 228, 228));
+    background-image: linear-gradient(225deg, rgb(246, 246, 246), rgb(228, 228, 228));
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(155, 155, 155);
     width: 300px;
@@ -110,4 +104,54 @@ section {
 .latest-work .works .work img:hover {
     transform: scale(1.1);
     transition: .3s ease-in-out;
+}
+
+
+
+
+.footer {
+    background-image: url("resourses/footer-bg.png");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.footer .clints-says {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .clints-says .s-clint {
+    width: 400px;
+    height: auto;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 10px;
+}
+
+.footer .clints-says .clint {
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px 15px;
+}
+
+.footer .clints-says .clint .c-name {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.footer .clints-says .clint .c-position {
+    text-transform: uppercase;
+    color: rgb(151, 151, 151);
+    font-weight: 600;
+}
+
+.footer .clints-says p {
+    color: gray;
+    margin: 15px;
+    border-left: 5px solid black;
+    padding: 0px 10px;
+    text-align: justify;
 }
