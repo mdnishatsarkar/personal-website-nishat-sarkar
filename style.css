@@ -157,8 +157,46 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+    section {
+        padding: 2rem 0;
+    }
+
     .header {
+        height: auto;
         flex-direction: column;
+    }
+
+    .biography {
+        height: auto;
+        flex-direction: column;
+    }
+    .biography .details h1 {
+        text-align: center;
+    }
+
+    .biography .details {
+        order: 1;
+    }
+    .biography .picture {
+        order: 2;
+    }
+
+    .latest-work {
+        gap: 2rem;
+        height: auto;
+    }
+
+    .latest-work .works {
+        flex-direction: row;
+    }
+
+    .footer {
+        gap: 2rem;
+    }
+
+    .clints-says {
+        flex-direction: column;
+        width: 80%;
     }
 
     .half-width {
