@@ -155,3 +155,17 @@ h1 {
     padding: 0px 10px;
     text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .half-width {
+        width: 80%;
+    }
+
+    .footer .clints-says .s-clint {
+        width: 100%;
+    }
+}
